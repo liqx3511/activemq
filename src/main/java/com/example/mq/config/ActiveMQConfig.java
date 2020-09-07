@@ -7,9 +7,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 
-/**
- * @author: elvin
- */
 @Configuration
 public class ActiveMQConfig {
     @Value("admin")

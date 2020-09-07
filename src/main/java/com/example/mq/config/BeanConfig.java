@@ -7,10 +7,6 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.jms.Queue;
 
-/*
- * @author uv
- * @date 2018/9/15 14:21
- */
 @Configuration
 public class BeanConfig {
     //定义存放消息的队列
